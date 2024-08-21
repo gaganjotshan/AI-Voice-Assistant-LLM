@@ -8,7 +8,7 @@ __version__ = "0.0.0"
 
 REPO_NAME = "AI-Voice-Assistant-LLM"
 AUTHOR_USER_NAME = "gaganjotshan"
-SRC_REPO = "LLM-Project"
+SRC_REPO = "ai_tech_support"
 AUTHOR_EMAIL = "gagan.shan7@gmail.com"
 
 HYPEN_E_DOT = '-e .'
@@ -32,7 +32,7 @@ setuptools.setup(
     version=__version__,
     author=AUTHOR_USER_NAME,
     author_email=AUTHOR_EMAIL,
-    description="A small python package for AI voice assistant app using RAG and Mistral",
+    description="AI-powered Technical Support Assistant, using RAG and Mistral",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
