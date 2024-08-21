@@ -60,7 +60,7 @@ cd AI-Voice-Assistant-LLM
 8. [Create a virtual environment](https://www.freecodecamp.org/news/how-to-setup-virtual-environments-in-python/):
 For Mac OS X:
 ```
- python3.10 -m venv llm_env
+ python3.10.14 -m venv llm_env
  ```
 
 9. Activate the virtual environment:
