@@ -81,9 +81,6 @@ For Mac OS X:
 ## Project Structure
 ```
 ai_tech_support/
-├── .github/
-│ └── workflows/
-│ └── .gitkeep
 ├── src/
 │ └── ai_tech_support/
 │ ├── init.py
@@ -91,7 +88,7 @@ ai_tech_support/
 │ │ ├── init.py
 │ │ ├── recorder.py
 │ │ └── transcriber.py
-│ ├── support/
+│ ├── llm_model/
 │ │ ├── init.py
 │ │ ├── tech_assistant.py
 │ │ └── knowledge_base.py
