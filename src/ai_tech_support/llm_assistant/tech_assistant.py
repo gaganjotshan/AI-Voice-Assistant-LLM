@@ -1,10 +1,10 @@
 import sys
 from qdrant_client import QdrantClient
 from llama_index.llms.ollama import Ollama
-from llama_index.core import SimpleDirectoryReader, ServiceContext, VectorStoreIndex
-from llama_index.vector_stores.qdrant import QdrantVectorStore
-from llama_index.core.storage.storage_context import StorageContext
-from llama_index.core.memory import ChatMemoryBuffer
+from llama_index import SimpleDirectoryReader, ServiceContext, VectorStoreIndex
+from llama_index.vector_stores import QdrantVectorStore
+from llama_index.storage import StorageContext
+from llama_index.memory import ChatMemoryBuffer
 from ..utils.logger import get_logger
 from ..utils.exception import exception_handler, CustomException
 
