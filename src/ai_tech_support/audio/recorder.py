@@ -51,7 +51,9 @@ class AudioRecorder:
 
     @staticmethod
     def is_silence(data, threshold=500):
-        return np.max(np.frombuffer(data, dtype=np.int16)) < threshold
+        audio_data = np.frombuffer(data, dtype=np.int16)
+        energy = np.sum(audio_data.astype(float) ** 2) / len(audio_data)
+        return energy < threshold
 
     def close(self):
         if self.stream:
